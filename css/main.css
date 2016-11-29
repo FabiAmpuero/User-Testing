@@ -1,8 +1,8 @@
 /* --------------------------------- GENERAL --- */
-
+/*
 * {
     outline: 1px solid rgba(255, 0, 0, 0.37);
-}
+}*/
 body {
     margin: 0;
     padding: 0;
@@ -215,7 +215,43 @@ header .banner button {
     font-weight: normal;
 }
 /* -------------------------------- FOOTER --- */
-
+/* -------------------------------- Banner --- */
+footer .banner {
+    background: rgba(75, 134, 247, 0.78);
+    height: 140px;
+    color: #fff;
+}
+footer .banner .col-md-7 {
+    margin-top: 30px;
+}
+footer .banner button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-size: 26px;
+    text-align: right;
+}
+/* ----------------------------------- Pie --- */
+footer .pie {
+    background: #3c3c3c;
+    color: #fff;
+}
+footer .pie .col-md-3 {
+    text-align: right;
+    padding-top: 20px;
+}
+footer .pie .col-md-9 {
+    padding: 35px 0 10px 0;
+}
+footer .pie .col-md-3 i {
+    color: rgba(75, 134, 247, 0.78);
+    font-size: 35px;
+    margin-left: 28px;
+}
+footer .pie .col-md-3 p {
+    padding-top: 10px;
+} 
 
 
 

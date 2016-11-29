@@ -221,7 +221,7 @@ footer .banner {
     height: 140px;
     color: #fff;
 }
-footer .banner .col-md-7 {
+footer .banner .col-sm-7 {
     margin-top: 30px;
 }
 footer .banner button {
@@ -237,19 +237,19 @@ footer .pie {
     background: #3c3c3c;
     color: #fff;
 }
-footer .pie .col-md-3 {
+footer .pie .col-sm-3 {
     text-align: right;
     padding-top: 20px;
 }
-footer .pie .col-md-9 {
+footer .pie .col-sm-9 {
     padding: 35px 0 10px 0;
 }
-footer .pie .col-md-3 i {
+footer .pie .col-sm-3 i {
     color: rgba(75, 134, 247, 0.78);
     font-size: 35px;
     margin-left: 28px;
 }
-footer .pie .col-md-3 p {
+footer .pie .col-sm-3 p {
     padding-top: 10px;
 } 
 

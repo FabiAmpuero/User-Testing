@@ -1,33 +1,102 @@
 /* --------------------------------- GENERAL --- */
+/*
 * {
     outline: 1px solid rgba(255, 0, 0, 0.37);
 }
+*/
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+h4 {
+    color: #34b9b9;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+p, li {
+    font-size: 12px;
 }
 /* ---------------------------------- HEADER --- */
-header {
+.fondo {
     background: url(../image/large.jpg) no-repeat;
     background-size: cover;
     background-attachment: scroll;
     height: 600px;
+}
+header {
+    background: rgba(66, 66, 87, 0.73);
+    height: 450px;
     color: #fff;
 }
-
-/*header .frase h1 {
+header .menu {
+    margin-top: 40px;
+}
+header .menu img {
+    height: 35px;
+}
+header .frase {
+    height: 375px;
+    display: table;
+}
+header .frase h1 {
+    margin: 0;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    line-height: 50px;
-    font-size: 50px;
     padding: 0 140px;
-} */
+}
+.list-inline {
+    float: right;
+}
+.list-inline li a {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.list-inline li a:hover {
+    text-decoration: none;
+    color: aqua;
+} 
+.fondo .icon-menu {
+    display: none;
+}
 header .banner {
     background: rgba(75, 134, 247, 0.78);
-    padding: 25px 0;
+    height: 150px;
+}
+header .banner .col-md-4 {
+    margin-top: 30px;
+}
+header .banner button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 26px;
 }
 /* ------------------------------- SERVICIOS --- */
+.servicios {
+    margin: 100px 0;
+}
+.servicios .row {
+    margin-top: 60px;
+}
+.servicios h5 {
+    color: #72a2a2;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 80px;
+    line-height: 1.5em;
+}
+.servicios p {
+    text-align: center;
+    padding: 0 40px;
+}
 .icon-container {
     width: 150px;
     height: 150px;
@@ -39,6 +108,91 @@ header .banner {
     border-radius: 100%;
     color: skyblue;
 }
-/* ------------------------------- GENERAL --- */
-/* ------------------------------- GENERAL --- */
-/* ------------------------------- GENERAL --- */
+/* ------------------------------- EJEMPLO --- */
+.ejemplo {
+    border-top: 1px solid #ccc;
+}
+.ejemplo .container .flecha {
+    margin: 0 auto;
+    display: block;
+    margin-top: -55px;
+}
+.ejemplo .row {
+    margin: 70px 0;
+}
+.ejemplo h4 {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.ejemplo p {
+    padding-top: 10px;
+}
+.ejemplo .flechados {
+    margin: 0 auto;
+    display: block;
+}
+/* --------------------------------- PASOS --- */
+.pasos {
+    border-top: 1px solid #ccc;
+}
+.pasos .col-md-6 h6 {
+    font-size: 18px;
+    color: #34b9b9;
+    padding-top: 22px;
+}
+.pasos .col-md-6 h5 {
+    font-size: 25px;
+    color: #222222;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.pasos .list-pasos {
+    padding-left: 18px;
+}
+.fondo-pasos {
+    background: url(../image/sec-2.jpg) no-repeat;
+    background-attachment: scroll;
+    background-position: left;
+    background-size: cover;
+    height: 470px;
+}
+.pasos {
+    background: rgba(66, 66, 87, 0.73);
+    height: 450px;
+    color: #fff;
+}
+.pasos .right {
+    padding-left: 60px;
+}
+.pasos .list-icons {
+    list-style: none;
+}
+.pasos .list-icons li i {
+    font-size: 30px;
+    background: #34b9b9;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.pasos .list-icons li {
+    text-align: right;
+    margin-right: -50px;
+    padding-top: 75px;
+}
+.pasos .row p, .pasos .row li {
+    line-height: 1.8em;
+}
+/* ----------------------------------- USO --- */
+
+
+
+
+
+
+
+
+
+
+

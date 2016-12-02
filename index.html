@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="icons/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/queries.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/queries.css">
         <script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</head>
@@ -35,7 +35,7 @@
 								<li><a href="#">¿Qué me ofrece?</a></li>
 								<li><a href="#">¿Cómo funciona?</a></li>
 								<li><a href="#">¿Por qué usarlo?</a></li>
-								<li><a href="#">Contactanos</a></li>
+								<li><a href="contact.html">Contáctanos</a></li>
 				            </ul>
 				        </nav>
 				    </div>
@@ -46,7 +46,7 @@
 							<li><a href="#">¿Qué me ofrece?</a></li>
 							<li><a href="#">¿Cómo funciona?</a></li>
 							<li><a href="#">¿Por qué usarlo?</a></li>
-							<li><a href="#">Contactanos</a></li>
+							<li><a href="contact.html">Contactanos</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -58,7 +58,7 @@
             <div class="banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2">
+                        <div class="banner-info col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2">
                             <h3>PRUEBA GRATUITA</h3>
                             <p>Obtén un video gratis de 5 minutos</p>
                         </div>
@@ -131,18 +131,29 @@
                     
                 </div>
                 <div class="col-md-6 right">
-                    <h5>Lo quiero ¿Qué hago?</h5>
-                    <h6>Paso 1: envianos tu link</h6>
-                    <p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
-                    <h6>Paso 2: describe a tu público objetivo</h6>
-                    <p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
-                    <ul class="list-pasos">
-                        <li>A primera vista, ¿de qué crees que trata la página?</li>
-                        <li>Busca el botón de inscribirte o comprar</li>
-                        <li>¿Es fácil o difícil leer los textos?</li>
-                    </ul>
-                    <h6>Paso 3: recibe un video y el feedback completo</h6>
-                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
+                    <div class="pasos-info">
+                        <h5>Lo quiero ¿Qué hago?</h5>
+                        <div class="step1">
+                            <span class="icon-blue"><i class="icon-pencil"></i></span>
+                            <h6>Paso 1: envianos tu link</h6>
+                            <p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
+                        </div>
+                        <div class="step2">
+                            <span class="icon-blue"><i class="icon-clock"></i></span>
+                            <h6>Paso 2: describe a tu público objetivo</h6>
+                            <p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
+                            <ul class="list-pasos">
+                                <li>A primera vista, ¿de qué crees que trata la página?</li>
+                                <li>Busca el botón de inscribirte o comprar</li>
+                                <li>¿Es fácil o difícil leer los textos?</li>
+                            </ul>
+                        </div>
+                        <div class="step3">
+                            <span class="icon-blue"><i class="icon-documents"></i></span>
+                            <h6>Paso 3: recibe un video y el feedback completo</h6>
+                            <p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,27 +186,27 @@
 <!-- ----------------------------------------- FOOTER -->
     <footer>
         <div class="banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-7 col-sm-offset-1">
-                        <h3>PRUEBA GRATUITA</h3>
-                        <p>Obtén un video gratis de 5 minutos</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <button>Pruebalo gratis</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="banner-info col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2">
+                            <h3>PRUEBA GRATUITA</h3>
+                            <p>Obtén un video gratis de 5 minutos</p>
+                        </div>
+                        <div class="col-md-3 col-sm-4 text-center">
+                            <button class=" animated shake">Pruebalo gratis</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div class="pie">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-9">
+                    <div class="col-md-9">
                         <p>Escribenos a:</p>
                         <small><a href="">experienciadeusuario.lab@gmail.com</a></small>
                         <p>telef: 989637925</p>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <i class="icon-facebook"></i>
                         <i class="icon-twitter"></i>
                         <p>Copyright © 2015 - User testing 360</p>
@@ -205,9 +216,5 @@
         </div>
     </footer>
 <!-- -------------------------------------- FIN FOOTER -->
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
     </body>
 </html>

@@ -88,11 +88,11 @@ header .banner h3 {
 	margin: 0;
 }
 /* ------------------------------- SERVICIOS --- */
-.servicios {
-    margin: 100px 0;
-}
 .servicios .row {
-    margin-top: 60px;
+    margin-top: 50px;
+}
+.servicios h4 {
+    padding-top: 70px;
 }
 .servicios h5 {
     color: #72a2a2;
@@ -151,54 +151,55 @@ header .banner h3 {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-.pasos .col-md-6 h6 {
+.pasos .row {
+    background: url(../image/sec-2.jpg);
+    background-size: contain;
+}
+.fondo-oscuro {
+    background: rgba(66, 66, 87, 0.73);
+}
+.pasos .pasos-info {
+	background: #FFF;
+	padding: 5px;
+	margin: 0 0 0 30px;
+}
+.pasos .right {
+    background: #fff;
+}
+.step1, .step2, .step3 {
+    position: relative;
+}
+.step3 {
+    margin-bottom: 75px;
+}
+.icon-blue {
+	border-radius:40px;
+	background: #299ff4;
+	padding: 10px;
+	font-size: 25px;
+	color: #FFF;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	margin-left: -70px;
+}
+.pasos .right h6 {
     font-size: 18px;
     color: #34b9b9;
-    padding-top: 22px;
+    margin-top: 22px;
 }
 .pasos .col-md-6 h5 {
     font-size: 25px;
     color: #222222;
-    font-weight: bold;
+    font-weight: lighter;
     padding-top: 10px;
 }
 .pasos .list-pasos {
     padding-left: 18px;
 }
-.pasos .row {
-    background: url(../image/sec-2.jpg);
-    background-size: contain;
-}
-.fondo-pasos {
-    background: rgba(66, 66, 87, 0.64);
-    height: 470px;
-    color: #fff;
-}
-.pasos .right {
-    padding-left: 60px;
-}
-.pasos .list-icons {
-    list-style: none;
-}
-.pasos .list-icons li i {
-    font-size: 26px;
-    background: #41b0eb;
-    border-radius: 100%;
-    padding: 10px;
-    display: inline-block;
-    color: #fff;
-}
-.pasos .list-icons .separador {
-    padding-top: 60px;
-    margin-right: -38px;
-}
-.pasos .list-icons li {
-    text-align: right;
-    margin-right: -30px;
-    padding-top: 78px;
-}
 .pasos .row p, .pasos .row li {
-    line-height: 1.8em;
+    line-height: 2em;
+    font-size: 15px;
 }
 /* ----------------------------------- USO --- */
 .uso {

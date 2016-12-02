@@ -1,55 +1,73 @@
-@media screen and (max-width:1000px) {
-    .list-inline {
-        display: none;
+@media screen and (max-width:768px)
+{
+	.banner-info
+	{
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	.fondo .frase{
+		margin: 70px 0;
+	}
+	.frase h1{
+		font-size: 20px;
+	}
+    .servicios .container h4 {
+        padding-top: 30px;
     }
-    .fondo .menu .icon-menu {
-        display: inline-block;
-        float: right;
-        font-size: 30px;
+    .servicios .row {
+        margin: 30px 0;
     }
-    .fondo .menu img {
-        display: inline-block;
-        margin: 0;
-    }
-    .fondo header .banner {
-        height: 180px;
-    }
-    .fondo .banner .col-md-4 {
-        display: block;
-        text-align: center;
-    }
-    .fondo .banner button {
-        margin: 0;
-    }
-    .fondo header .menu {
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width:700px) {
-    footer .banner .col-sm-7 {
-        display: block;
-        margin: 0;
-    }
-    footer .banner .col-sm-7 h3 {
-        margin: 0;
-    }
-    footer .banner {
-        text-align: center;
-    }
-    footer .banner .col-sm-4 button {
-        margin:0;
-    }
-}
-    
-@media screen and (max-width:600px) {
-    .fondo header .frase h1 {
+    .servicios h5 {
         padding: 0;
     }
-    .container {
-        width: 100%;
+    .servicios p {
+        margin-bottom: 30px;
     }
-    .fondo header .frase {
-        width: 100%;
+    .uso {
+        margin: 70px 0 30px 0;
     }
+    .uso p, .uso ul li, footer p {
+        font-size: 15px;
+    }
+    footer .banner button {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:999px)
+{
+	.icon-blue
+	{
+		margin-left: -65px;
+
+	}
+	.pasos .right
+	{
+		background: none;
+	}
+	.pasos .row{
+		background-size: cover;
+	}
+	.pasos .pasos-info
+	{
+		margin: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+		padding: 5px 20px 5px 40px;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.fondo .row>div
+	{
+		text-align: center;
+	}
+	.fondo .row>div .img-responsive
+	{
+		display: inline-block;
+	}
+	.desktop-menu
+	{
+		text-align: center;
+	}
 }

@@ -49,3 +49,8 @@ p {
 .asterisco {
     color: red;
 }
+@media screen and (max-width:640px) {
+    .container {
+        width: 80%;
+    }
+}

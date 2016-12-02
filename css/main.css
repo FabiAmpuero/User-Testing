@@ -156,9 +156,6 @@ nav li a:hover, nav li a:focus {
     background: url(../image/sec-2.jpg);
     background-size: contain;
 }
-.fondo-oscuro {
-    background: rgba(66, 66, 87, 0.73);
-}
 .pasos .pasos-info {
 	background: #FFF;
 	padding: 5px;

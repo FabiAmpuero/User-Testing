@@ -1,14 +1,13 @@
 @media screen and (max-width:768px)
 {
-	.banner-info
-	{
+	.banner-info {
 		text-align:center;
 		margin-bottom: 15px;
 	}
-	.fondo .frase{
+	.fondo .frase {
 		margin: 70px 0;
 	}
-	.frase h1{
+	.frase h1 {
 		font-size: 20px;
 	}
     .servicios .container h4 {
@@ -35,20 +34,16 @@
 }
 @media screen and (max-width:999px)
 {
-	.icon-blue
-	{
+	.icon-blue {
 		margin-left: -65px;
-
 	}
-	.pasos .right
-	{
+	.pasos .right {
 		background: none;
 	}
-	.pasos .row{
+	.pasos .row {
 		background-size: cover;
 	}
-	.pasos .pasos-info
-	{
+	.pasos .pasos-info {
 		margin: 20px;
 		border-radius: 10px;
 		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
@@ -56,18 +51,14 @@
 	}
 }
 
-@media screen and (max-width:999px) and (min-width:768px)
-{
-	.fondo .row>div
-	{
+@media screen and (max-width:999px) and (min-width:768px) {
+	.fondo .row>div	{
 		text-align: center;
 	}
-	.fondo .row>div .img-responsive
-	{
+	.fondo .row>div .img-responsive	{
 		display: inline-block;
 	}
-	.desktop-menu
-	{
+	.desktop-menu {
 		text-align: center;
 	}
 }

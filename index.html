@@ -4,6 +4,7 @@
 	  	<meta charset="utf-8">
 	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>User Testing 360°</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
         <link rel="stylesheet" href="css/icomoon.css">
         <link rel="stylesheet" href="icons/style.css">
@@ -11,7 +12,8 @@
         <link rel="stylesheet" href="css/queries.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/main.css">
-	  	<title>User Testing 360°</title>
+        <script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 <!-- ----------------------------------------- HEADER -->
@@ -19,33 +21,47 @@
         <header>
             <div class="container">
                 <div class="row menu">
-                    <div class="col-md-3">
-                        <img class="img-responsive" src="image/user-r.png" alt="">
-                        <i class="icon-menu"></i>
-                    </div>
-                    <div class="col-md-9">
-                        <nav>
-                            <ul class="list-inline">
-                                <li><a href="">¿Qué me ofrece?</a></li>
-                                <li><a href="">¿Cómo funciona?</a></li>
-                                <li><a href="">¿Por qué usarlo?</a></li>
-                                <li><a href="contact.html">Contáctanos</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-6">
+				        <img src="image/user-r.png" class="logo img-responsive" alt="">
+				    </div>
+				    <div class="col-md-9 col-sm-12 col-xs-6">
+				        <div class="text-right visible-xs">
+				            <button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+				        </div>
+
+				        <nav class="hidden-xs">
+				            <ul class="desktop-menu list-inline text-right">
+								<li><a href="#">¿Qué me ofrece?</a></li>
+								<li><a href="#">¿Cómo funciona?</a></li>
+								<li><a href="#">¿Por qué usarlo?</a></li>
+								<li><a href="#">Contactanos</a></li>
+				            </ul>
+				        </nav>
+				    </div>
                 </div>
+                <nav class="visible-xs">
+					<div id="main-navigation" class="collapse">
+						<ul  class="mobile-menu text-right">
+							<li><a href="#">¿Qué me ofrece?</a></li>
+							<li><a href="#">¿Cómo funciona?</a></li>
+							<li><a href="#">¿Por qué usarlo?</a></li>
+							<li><a href="#">Contactanos</a></li>
+						</ul>
+					</div>
+				</nav>
+               
                 <div class="frase">
-                    <h1 class="animated fadeInDownBig">Obtén videos de personas reales utilizando tu sitio web, en 1 Hora</h1>
+                    <h1 class="animated fadeInDownBig">Obtén videos de personas reales <br> utilizando tu sitio web, en 1 Hora</h1>
                 </div>
             </div>
             <div class="banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-md-offset-2">
+                        <div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2">
                             <h3>PRUEBA GRATUITA</h3>
                             <p>Obtén un video gratis de 5 minutos</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-3 col-sm-4 text-center">
                             <button class=" animated shake">Pruebalo gratis</button>
                         </div>
                     </div>

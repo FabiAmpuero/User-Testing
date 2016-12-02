@@ -228,8 +228,6 @@ nav li a:hover, nav li a:focus {
     font-weight: normal;
 }
 /* -------------------------------- FOOTER --- */
-/* -------------------------------- Banner --- */
-
 /* ----------------------------------- Pie --- */
 footer .pie {
     background: #3c3c3c;
@@ -253,13 +251,3 @@ footer .pie .col-sm-3 i {
 footer .pie .col-sm-3 p {
     padding-top: 10px;
 } 
-
-
-
-
-
-
-
-
-
-

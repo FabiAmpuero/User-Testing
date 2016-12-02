@@ -233,18 +233,18 @@ footer .pie {
 footer .banner {
     color: #fff;
 }
-footer .pie .col-sm-3 {
+footer .pie .col-md-3 {
     text-align: right;
     padding-top: 20px;
 }
-footer .pie .col-sm-9 {
+footer .pie .col-md-9 {
     padding: 35px 0 10px 0;
 }
-footer .pie .col-sm-3 i {
+footer .pie .col-md-3 i {
     color: rgba(75, 134, 247, 0.78);
     font-size: 35px;
     margin-left: 28px;
 }
-footer .pie .col-sm-3 p {
+footer .pie .col-md-3 p {
     padding-top: 10px;
 } 

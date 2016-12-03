@@ -17,7 +17,7 @@ h4 {
     margin: 0;
 }
 p, li {
-    font-size: 15px;
+    font-size: 13px;
 }
 /* ---------------------------------- HEADER --- */
 .fondo {
@@ -226,25 +226,3 @@ nav li a:hover, nav li a:focus {
 }
 /* -------------------------------- FOOTER --- */
 /* ----------------------------------- Pie --- */
-footer .pie {
-    background: #3c3c3c;
-    color: #fff;
-}
-footer .banner {
-    color: #fff;
-}
-footer .pie .col-md-3 {
-    text-align: right;
-    padding-top: 20px;
-}
-footer .pie .col-md-9 {
-    padding: 35px 0 10px 0;
-}
-footer .pie .col-md-3 i {
-    color: rgba(75, 134, 247, 0.78);
-    font-size: 35px;
-    margin-left: 28px;
-}
-footer .pie .col-md-3 p {
-    padding-top: 10px;
-} 

@@ -1,56 +1,51 @@
 body {
-    background: url(../image/large.jpg) no-repeat;
+    background: url(../image/large.jpg);
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-form input, textarea {
-    width: 100%;
-}
-.container {
-    width: 600px;
-    margin: auto;
-    padding: 0;
-    background: #fff;
-    margin-top: 100px;
-}
-form {
-    padding: 10px;
-    border-top: 4px solid #4d75bf;
-    padding-bottom: 0px;
-}
-form h2 {
-    margin: 0;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 15px;
     font-family: serif;
 }
-.form-horizontal {
-    padding-top: 0;
-}
-.right {
-    text-align: right;
-}
-p {
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
-    font-family: serif;
-    font-size: 12px;
-}
-.ultimo {
-    margin: 0;
-}
-.underline {
-    text-decoration: underline;
-}
-.asterisco {
+span {
     color: red;
 }
-@media screen and (max-width:640px) {
-    .container {
-        width: 80%;
+form  {
+    border-top: 5px solid #4c89d0;
+    padding: 0 80px;
+}
+form h2 {
+    border-bottom: 2px solid #ccc;
+    margin: 0 30px 18px 0px;
+    padding-bottom: 10px;
+}
+form textarea {
+    max-width: 100%;
+}
+.padre{
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+small {
+    padding: 0 10px;
+}
+small a {
+    text-decoration: underline;
+}
+.text-right {
+    padding-right: 30px;
+}
+.form-horizontal .control-label {
+    text-align: left;
+}
+@media screen and (max-width:450px) {
+    form {
+        padding: 0 15px;
+    }
+    small {
+        display: block;
+    }
+    .padre {
+        width: 95%;
     }
 }

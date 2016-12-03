@@ -34,6 +34,25 @@
 }
 @media screen and (max-width:999px)
 {
+	.pie {
+		padding: 0 20px;
+	}
+	.pie .izquierda p {
+    	margin: 0 auto;
+    	text-align: center;
+    }
+    .pie .izquierda a {
+    	text-align: center;
+    	display: block;
+    }
+    .pie .derecha p {
+    	text-align: center;
+    	display: inline-block;
+    }
+    .pie .derecha span {
+    	display: block;
+    	text-align: center;
+    }
 	.icon-blue {
 		margin-left: -65px;
 	}

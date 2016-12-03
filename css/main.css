@@ -224,5 +224,33 @@ nav li a:hover, nav li a:focus {
     color: #3490b9;
     font-weight: normal;
 }
+/* ---------------------------- BANNER DOS --- */
+.banner-dos {
+    color: #fff;
+}
+
 /* -------------------------------- FOOTER --- */
-/* ----------------------------------- Pie --- */
+footer{
+	background-color: #2A3541;
+	color:white;
+	font-size: 1.5rem;
+	padding:4% 0%;
+}
+footer a{
+	display: inline-block;
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: none;
+	color:white;
+}
+footer .social{
+	font-size:35px;
+	margin-left: 30px;
+}
+footer p{
+	line-height: 2;
+}
+.copy {
+    padding: 10px 0;
+}

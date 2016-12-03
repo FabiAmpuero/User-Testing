@@ -226,15 +226,34 @@ nav li a:hover, nav li a:focus {
 }
 /* ---------------------------- BANNER DOS --- */
 .banner-dos {
+    background: rgba(75, 134, 247, 0.78);
+    padding: 45px 0 20px 0;
     color: #fff;
 }
-
+.banner-dos button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.banner-dos .banner-info {
+    line-height: 2.4em;
+}
+.banner-dos button:hover {
+    background: #fff;
+    color: rgba(75, 134, 247, 0.78);
+}
+.banner-dos h3 {
+	margin: 0;
+}
 /* -------------------------------- FOOTER --- */
 footer{
 	background-color: #2A3541;
 	color:white;
 	font-size: 1.5rem;
-	padding:4% 0%;
+	padding: 20px 30px;
 }
 footer a{
 	display: inline-block;
@@ -242,14 +261,15 @@ footer a{
 }
 footer a:hover{
 	text-decoration: none;
-	color:white;
+	color:#fff;
 }
-footer .social{
+footer .icono-footer{
 	font-size:35px;
 	margin-left: 30px;
 }
 footer p{
 	line-height: 2;
+    padding-top: 5px;
 }
 .copy {
     padding: 10px 0;

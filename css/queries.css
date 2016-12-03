@@ -66,4 +66,8 @@
     footer .centrar  {
         text-align: center;
     }
+    footer .icono-footer {
+        font-size: 60px;
+        padding: 0 20px;
+    }
 }
